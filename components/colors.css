@@ -1,15 +1,7 @@
-:root {
+_ {
     --text: #1d2d44;
     --background: #f6f5ff;
     --primary: #95d5b2;
     --secondary: #d9e4fc;
     --accent: #004d24;
-}
-
-html,
-body {
-    margin: 0;
-    height: 100%;
-    width: 100%;
-    background: var(--background);
 }
