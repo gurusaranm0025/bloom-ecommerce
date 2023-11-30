@@ -10,11 +10,21 @@ function SuggestionRow() {
           Shop all
         </a>
       </div>
-      <div className={classes.previewWrapper}>
-        <ProductPreview />
-        <ProductPreview />
-        <ProductPreview />
-        <ProductPreview />
+      <div className={classes.productListWrapper}>
+        <ul className={classes.productList}>
+          <li className={classes.li}>
+            <ProductPreview />
+          </li>
+          <li className={classes.li}>
+            <ProductPreview />
+          </li>
+          <li className={classes.li}>
+            <ProductPreview />
+          </li>
+          <li className={classes.li}>
+            <ProductPreview />
+          </li>
+        </ul>
       </div>
     </div>
   );
