@@ -26,11 +26,11 @@
     width: 100;
     text-align: center;
     font-size: .75rem;
-    font-weight: 300;
+    font-weight: 400;
     background: var(--secondary);
     padding-top: 2vh;
     height: fit-content;
-    letter-spacing: 1.2px;
+    letter-spacing: 1px;
 }
 
 .btnWrapper {
@@ -40,5 +40,5 @@
     justify-content: center;
     padding: 1.5vh 0 0;
     background: var(--secondary);
-    letter-spacing: 1.2px;
+    padding-bottom: 3vh;
 }
