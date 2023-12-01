@@ -1,7 +1,7 @@
 import NavBar from "@/components/NavBar/NavBar";
 import HomeBanner from "@/components/Promotion/HomeBanner";
 import SuggestionRow from "@/components/Products/SuggestionRow/SuggestionRow";
-import Carousel from "@/components/Carousel/Carousel";
+import ReviewCarousel from "@/components/Carousel/ReviewCarousel";
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
       <HomeBanner />
       <SuggestionRow />
       <SuggestionRow />
-      <Carousel />
+      <ReviewCarousel />
     </main>
   );
 }

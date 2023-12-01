@@ -1,0 +1,17 @@
+.btn {
+    width: 125px;
+    height: 40px;
+    background: var(--accent);
+    outline: none;
+    border: none;
+    color: var(--background);
+    transition: all .35s ease;
+    font-weight: 600;
+    border-radius: 25px;
+    margin: 7px auto;
+}
+
+.btn:hover {
+    background: rgba(0, 77, 36, .5);
+    color: var(--background);
+}

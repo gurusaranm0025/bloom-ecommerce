@@ -1,0 +1,12 @@
+.div {
+    --text: #1d2d44;
+    --background: #f6f5ff;
+    --primary: #95d5b2;
+    --secondary: #d9e4fc;
+    --accent: #004d24;
+}
+
+.reviewWrapper {
+    text-align: left;
+    width: 25vw;
+}

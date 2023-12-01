@@ -1,0 +1,44 @@
+.div {
+    --text: #1d2d44;
+    --background: #f6f5ff;
+    --primary: #95d5b2;
+    --secondary: #d9e4fc;
+    --accent: #004d24;
+}
+
+.carouselContent {
+    height: 25vh;
+    color: var(--text);
+    background: var(--secondary);
+    text-align: center;
+}
+
+.carouselInnerContent {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+}
+
+.reviewHeading {
+    width: 100;
+    text-align: center;
+    font-size: .75rem;
+    font-weight: 300;
+    background: var(--secondary);
+    padding-top: 2vh;
+    height: fit-content;
+    letter-spacing: 1.2px;
+}
+
+.btnWrapper {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    padding: 1.5vh 0 0;
+    background: var(--secondary);
+    letter-spacing: 1.2px;
+}
