@@ -1,5 +1,6 @@
 import classes from "@/components/Promotion/HomeBanner.module.css";
 import Sample from "@/public/assets/Promotions/promotion.jpg";
+import ShopAllButton from "../Buttons/ShopAllButton";
 
 function HomeBanner() {
   return (
@@ -15,7 +16,7 @@ function HomeBanner() {
         <span className={classes.quotes}>
           backed by five generations of grow-how
         </span>
-        <button className={classes.btn}>SHOP PLANTS</button>
+        <ShopAllButton />
       </div>
     </div>
   );

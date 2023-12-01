@@ -34,7 +34,8 @@
     color: var(--secondary);
 }
 
-.btn {
+/* button is exported as separate module */
+/* .btn {
     width: 125px;
     height: 40px;
     background: var(--accent);
@@ -50,4 +51,4 @@
 .btn:hover {
     background: rgba(0, 77, 36, .5);
     color: var(--background);
-}
+} */
