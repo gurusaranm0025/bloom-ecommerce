@@ -22,33 +22,17 @@
 }
 
 .heading {
-    font-size: 2rem;
+    font-family: "Hina Mincho", serif;
+    font-size: 2.7rem;
     font-weight: 600;
     color: var(--secondary);
 }
 
 .quotes {
-    font-size: 1rem;
+    font-family: "Hina Mincho", serif;
+    letter-spacing: 1px;
+    font-size: 1.4rem;
     font-weight: 500;
-    line-height: 2;
+    line-height: 1.8;
     color: var(--secondary);
 }
-
-/* button is exported as separate module */
-/* .btn {
-    width: 125px;
-    height: 40px;
-    background: var(--accent);
-    outline: none;
-    border: none;
-    color: var(--background);
-    transition: all .35s ease;
-    font-weight: 600;
-    border-radius: 25px;
-    margin: 7px auto;
-}
-
-.btn:hover {
-    background: rgba(0, 77, 36, .5);
-    color: var(--background);
-} */

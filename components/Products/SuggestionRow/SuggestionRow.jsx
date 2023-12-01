@@ -1,7 +1,7 @@
 import classes from "@/components/Products/SuggestionRow/SuggestionRow.module.css";
 import ProductPreview from "../ProductPreview/ProductPreview";
 
-function SuggestionRow() {
+function SuggestionRow({}) {
   return (
     <div className={classes.suggWrapper}>
       <div className={classes.titleWrapper}>

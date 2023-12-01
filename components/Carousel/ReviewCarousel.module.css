@@ -25,8 +25,8 @@
 .reviewHeading {
     width: 100;
     text-align: center;
-    font-size: .75rem;
-    font-weight: 400;
+    font-family: "Hina Mincho", serif;
+    font-size: .90rem;
     background: var(--secondary);
     padding-top: 2vh;
     height: fit-content;

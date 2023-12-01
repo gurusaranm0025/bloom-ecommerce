@@ -8,7 +8,6 @@
 
 .suggWrapper {
     height: 50vh;
-    /* background-color: var(--secondary); */
     margin: 2vh 0;
 }
 
@@ -23,11 +22,14 @@
 .title {
     display: inline;
     margin-right: auto;
-    font-family: sans-serif;
+    font-family: "Hina Mincho", serif;
+    letter-spacing: 1.3px;
+    font-size: 1.8rem;
 }
 
 .link {
-    font-family: sans-serif;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 1px;
     font-size: large;
     font-weight: 500;
     text-decoration: none;

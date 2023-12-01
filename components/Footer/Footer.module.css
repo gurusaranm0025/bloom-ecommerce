@@ -15,6 +15,7 @@
     font-size: 0.95rem;
     display: flex;
     flex-direction: column;
+    font-family: "Poppins", sans-serif;
 }
 
 .footerContent {
@@ -63,6 +64,7 @@
 .nonMediaLink {
     text-decoration: none;
     color: var(--background);
+    transition: .2s ease;
 }
 
 .socialMediaLinksWrapper {
@@ -72,14 +74,19 @@
     justify-content: flex-end;
     align-items: center;
     gap: 2vw;
+    transition: .2s ease;
 }
 
 .socialMediaLink {
     font-size: 1.5rem;
 }
 
-/* social media links */
-/* .socialMediaLink {
-    width: 20px;
-    color: black;
-} */
+.columnOption {
+    transition: .2s ease;
+}
+
+.socialMediaLink:hover,
+.nonMediaLink:hover,
+.columnOption:hover {
+    color: gray;
+}
